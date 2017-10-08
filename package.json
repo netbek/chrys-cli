@@ -1,0 +1,26 @@
+{
+  "name": "chrys-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/netbek/chrys-cli"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "author": {
+    "name": "Hein Bekker",
+    "email": "hein@netbek.co.za",
+    "url": "http://netbek.co.za"
+  },
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/netbek/chrys-cli/issues"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.6",
+    "fs-extra": "^2.0.0"
+  }
+}
