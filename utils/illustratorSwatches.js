@@ -6,8 +6,8 @@ Promise.promisifyAll(fs);
 
 /**
  *
- * @param   {Object} config Keys: document, characterStyles, colors, swatchRect
- * @param   {String} dist
+ * @param   {Object} config - Keys: document, characterStyles, colors, swatchRect
+ * @param   {string} dist
  * @returns {Promise}
  */
 module.exports = function illustratorSwatches(config, dist) {
@@ -16,7 +16,7 @@ module.exports = function illustratorSwatches(config, dist) {
       path.join(__dirname, '../src/illustrator/swatches.js'),
       'utf-8'
     )
-    .then(function (data) {
+    .then(function(data) {
       var str = 'var config = ' + JSON.stringify(config) + ';\n\n';
 
       return fs.outputFileAsync(dist, str + data, 'utf-8');
