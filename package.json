@@ -19,9 +19,6 @@
   "bugs": {
     "url": "https://github.com/netbek/chrys-cli/issues"
   },
-  "resolutions": {
-    "eslint-scope": "3.7.1"
-  },
   "devDependencies": {
     "babel-eslint": "8.2.6",
     "bluebird": "3.7.2",
