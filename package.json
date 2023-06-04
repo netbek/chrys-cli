@@ -1,6 +1,6 @@
 {
   "name": "chrys-cli",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "engines": {
     "node": "18.16.0",
     "npm": "9.6.7"
