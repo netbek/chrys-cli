@@ -1,10 +1,6 @@
 {
   "name": "chrys-cli",
   "version": "1.0.28",
-  "engines": {
-    "node": "20.10.0",
-    "npm": "10.2.3"
-  },
   "description": "",
   "main": "index.js",
   "repository": {
@@ -26,10 +22,10 @@
   "devDependencies": {
     "bluebird": "3.7.2",
     "eslint": "8.56.0",
-    "eslint-config-prettier": "8.10.0",
-    "eslint-plugin-prettier": "4.2.1",
-    "espree": "9.6.1",
-    "fs-extra": "10.1.0",
-    "prettier": "2.8.8"
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "espree": "10.0.0",
+    "fs-extra": "11.2.0",
+    "prettier": "3.2.4"
   }
 }
