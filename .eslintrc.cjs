@@ -17,7 +17,7 @@ module.exports = {
   },
   parser: 'espree',
   parserOptions: {
-    ecmaVersion: 2015,
+    ecmaVersion: 2020,
     requireConfigFile: true,
     sourceType: 'module'
   }
