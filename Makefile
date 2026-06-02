@@ -32,6 +32,9 @@ create-release:
 	gh release create $$VERSION; \
 	git fetch --tags;
 
+publish:
+	pnpm publish
+
 # Prevent make from treating arguments to bump-version as targets
 ifeq (bump-version,$(firstword $(MAKECMDGOALS)))
 %:
